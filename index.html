@@ -15,69 +15,48 @@
 <body>
 
 
-    <div class="container mt-5">
+    <div class="contenedor">
         <div class="text-center">
-            <h1>Programa de Estudiantes</h1>
+            <h1>Estudiantes y Tareas </h1>
+
         </div>
 
-        
-        <div class="main row justify-content-center" >
-            <form action="" id="student-form" class="row justify-content-center mb-4">
-    
-                <div class="col-8 mb-3">
-                    <label for="Nombre">Nombre </label>
-                    <input class="form-control" id="Nombre" type="text">
-    
-                </div>
-                
-                <div class="col-8 mb-3">
-                    <label for="Apellido">Apellido </label>
-                    <input class="form-control" id="Apellido" type="text">
-    
+
+        <div class="formulario">
+            <form action="" class="">
+
+                <div>
+                 <label for="" id="Estudiante">Estudiante</label>
+                 <input type="text" id= "estudiantes"class="col-10 mb-4">
                 </div>
 
-                <div class="col-8 mb-3">
-                    <label for="Curso">Curso </label>
-                    <input class="form-control" id="Curso" type="text">
-    
+                <div>
+                    <label for=""id="Tareas">Tareas</label>
+                    <input type="text" id="tareas"  class="col-10 mb-4">
                 </div>
 
-                <div class="col-8 mb-3">
-                    
-                    <input onclick="alert('usuario registrado')" class="btn btn-succes add-btn" style="background-color: #135658; color: white   ;" type="button"  value="submit">
-    
+                <div>
+                    <input type="submit" value="submit" id="agregar"  class="btn btn-success add-btn" >
                 </div>
                 
+                
+
             </form>
 
-            <div class="col-8mt-5">
-                <table class="table table-striped table-light">
-                    <thead>
-                        <tr>
-                            <th>Nombre</th>
-                            <th>Apellido</th>
-                            <th>Curso</th>
-                        </tr>
-                    </thead>
-
-                </table>
-            </div>
-
-            <tbody class="lista-estudiantes">
-                <div>
-                    <tr>
-                        <td >
-                            <a href="" class="btn btn-sm Editar" style="background-color:#489e63; border-radius: 10px; color: white;">Editar</a>
-                            <a href="" class="btn btn-sm Eliminar" style="background-color:#386866; border-radius: 10px; color: white;"  >Eliminar</a>
-                        </td>
-                        
-                    </tr>
-                </div>
-            </tbody>
-
+            
         </div>
 
+        <div class="listado">
+            <h2>listado</h2>
+            
+        </div>
+
+
     </div>
+
+
+
+    
   
 
 
